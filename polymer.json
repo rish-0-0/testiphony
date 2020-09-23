@@ -3,7 +3,7 @@
   "shell": "src/components/shop-app.js",
   "sources": [
     "data/**/*",
-    "images/**/*"
+    "img/**/*"
   ],
   "extraDependencies": [
     "manifest.json",

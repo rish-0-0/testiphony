@@ -76,7 +76,7 @@ class ShopApp extends connect(store)(LitElement) {
       }
 
       .logo a {
-        font-size: 16px;
+        font-size: 24px;
         font-weight: 600;
         letter-spacing: 0.3em;
         color: var(--app-primary-color);
@@ -215,7 +215,7 @@ class ShopApp extends connect(store)(LitElement) {
             <paper-icon-button icon="arrow-back" aria-label="Go back"></paper-icon-button>
           </a>
         </div>
-        <div class="logo" main-title><a href="/" aria-label="SHOP Home">SHOP</a></div>
+        <div class="logo" main-title><a href="/" aria-label="TESTIPHONY Home">TESTIPHONY</a></div>
         <shop-cart-button></shop-cart-button>
       </app-toolbar>
 
@@ -267,8 +267,7 @@ class ShopApp extends connect(store)(LitElement) {
     </main>
 
     <footer>
-      <a href="https://www.polymer-project.org/3.0/toolbox/">Made by Polymer</a>
-      <div class="demo-label">Demo Only</div>
+      <p>&copy; Rishabh Anand, 2020</p> 
     </footer>
 
     <!-- a11y announcer -->

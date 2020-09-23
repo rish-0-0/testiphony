@@ -104,7 +104,7 @@ class ShopHome extends connect(store)(PageViewElement) {
         </a>
         <h2>${category.title}</h2>
         <shop-button>
-          <a aria-label="${category.title} Shop Now" href="/list/${category.name}">Shop Now</a>
+          <a aria-label="${category.title} Find Reviews" href="/list/${category.name}">Find Reviews</a>
         </shop-button>
       </div>`;
     })}`;
