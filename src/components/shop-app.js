@@ -216,7 +216,8 @@ class ShopApp extends connect(store)(LitElement) {
           </a>
         </div>
         <div class="logo" main-title><a href="/" aria-label="TESTIPHONY Home">TESTIPHONY</a></div>
-        <shop-cart-button></shop-cart-button>
+        <shop-put-review></shop-put-review>
+        <!-- <shop-cart-button></shop-cart-button> -->
       </app-toolbar>
 
       <!-- Lazy-create the tabs for larger screen sizes. -->
@@ -247,6 +248,9 @@ class ShopApp extends connect(store)(LitElement) {
               </a>
             `;
           })}
+          <a class="" href="/submit">
+            Submit a Review
+          </a>
         </nav>
       </app-drawer>
     ` : null}
